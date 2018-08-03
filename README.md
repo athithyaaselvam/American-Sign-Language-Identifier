@@ -13,3 +13,6 @@ The american sign language data is obtained from 18 data streams - 3 from accele
 
 **Phase 2:**
 Performing decsion tree,  support vector machine. neural network classifications on the PCA output data. The accuracy of each classifier is reported. 
+
+**Phase 3:**
+Performed the same pahse 2 analysis for 10 more users and tested the accuracy using decison trees, support vector machines and neural networks.
