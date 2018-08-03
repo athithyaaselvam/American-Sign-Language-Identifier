@@ -10,3 +10,6 @@ The american sign language data is obtained from 18 data streams - 3 from accele
 
 **Task 3:**
   Reduction of the feature space by keeping only those features which show maximum distance between the two classes. PCA is used for feature selection. 
+
+**Phase 2:**
+Performing decsion tree,  support vector machine. neural network classifications on the PCA output data. The accuracy of each classifier is reported. 
