@@ -1,5 +1,5 @@
 % Feature Extraction
-dirPath = '/Users/sangeethaswaminathan/Desktop/572proj/finalcsv/';
+dirPath = '/Users/athithyaa/Desktop/572proj/finalcsv/';
 gestureList = ["about","and","can","cop","deaf","decide","father","find","go_out","hearing"];
 alxMinGestureList = [];
 alxMaxGestureList = [];
