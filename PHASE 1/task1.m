@@ -1,6 +1,6 @@
 % Segmentation
 gestureList=["about","and","can","cop","deaf","decide","father","find","go_out","hearing"];
-dirPath = '/Users/sangeethaswaminathan/Desktop/572/CSE572_A2_data/';
+dirPath = '/Users/athithyaa/Desktop/572/CSE572_A2_data/';
 headerFile = importdata(strcat(dirPath,'DM01/about100233AM.csv'),' ',1);
 sensorList = strsplit(headerFile{1},',');
 finalSensorList = sensorList(1,1:34);
@@ -17,7 +17,7 @@ for i = 1 : length(gestureList)
         else
             folderName=strcat('DM',int2str(folderIter));
         end   
-        folderPath = strcat('/Users/sangeethaswaminathan/Desktop/572/CSE572_A2_data/',folderName);
+        folderPath = strcat('/Users/athithyaa/Desktop/572/CSE572_A2_data/',folderName);
         folderPath = strcat(folderPath,'/');
         allFiles=dir(strcat(folderPath,'*.csv'));
         for j = 1 : length(allFiles)
